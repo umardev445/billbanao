@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#174d3b">
+  <meta name="description" content="Create beautiful invoices and quotations, keep client records, and export PDFs. An offline-first workspace for your small business.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; worker-src 'self'; manifest-src 'self'">
+  <meta name="referrer" content="no-referrer">
+  <title>BillBanao — Your business, beautifully organised</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="app"><div class="loading">BillBanao<span>Opening your workspace…</span></div></div>
+  <noscript><div class="fatal"><h1>JavaScript is needed</h1><p>Enable JavaScript to create invoices. Your records are stored on your device.</p><a href="./privacy.html">Privacy policy</a></div></noscript>
+  <dialog id="editor" class="editor-dialog"></dialog>
+  <dialog id="preview" class="preview-dialog"></dialog>
+  <dialog id="contact-dialog" class="small-dialog"></dialog>
+  <dialog id="confirm" class="small-dialog"></dialog>
+  <div id="toasts" role="status" aria-live="polite"></div>
+  <section id="print-root" aria-hidden="true"></section>
+</body>
+</html>

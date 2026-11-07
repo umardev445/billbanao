@@ -1,0 +1,20 @@
+BILLBANAO — QUICK START
+
+1. ZIP extract karein.
+2. billbanao folder ke andar ki saari files GitHub repo mein upload karein.
+   index.html root par honi chahiye, kisi extra folder ke andar nahi.
+3. assets/config.js mein asli publisherName aur supportEmail bharein.
+4. GitHub Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. GitHub ka HTTPS link kholein. My business mein business details save karein.
+6. New invoice se bill banayein aur PDF download karein.
+
+Privacy page: aapke-site-ka-link/privacy.html
+
+Yeh web app ka code hai. Android Studio / AAB project is ZIP mein nahi hai.
+Android WebView mein PDF, sharing, printing aur file-picker support ke liye
+ANDROID-NOTES.md parhein.
+
+8 code tests pass hain. Browser preview service authoring environment mein
+available nahi thi; apne browser aur Android device mein release se pehle test karein.
+
+App Store / Google Play approval ki guarantee nahi hoti.

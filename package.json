@@ -1,0 +1,12 @@
+{
+  "name": "billbanao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private, offline-first invoice and quotation maker. No dependencies or build step required for GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
